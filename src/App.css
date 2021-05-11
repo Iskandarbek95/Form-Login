@@ -1,0 +1,86 @@
+input,
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#e6ffff, #b3d9ff);
+}
+
+form {
+  color: #e6e6e6;
+}
+
+form .form-inner {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#7577fe, #b124ef);
+  border-radius: 10px;
+  padding: 40px;
+  z-index: 2;
+}
+
+form .form-inner h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 0 40px 0;
+}
+
+form .form-inner .form-group {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 25px;
+}
+
+form .form-inner .form-group label {
+  color: white;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+form .form-inner input[type="submit"],
+.welcome button {
+  width: max-content;
+  margin: 20px auto 0 auto;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(102, 102, 102);
+  padding: 12px 30px;
+  border-radius: 40px;
+  background-image: linear-gradient(#ffffff, #e6e6e6);
+}
+
+form .form-inner input[type="submit"]:hover,
+.welcome button:hover {
+  background-image: linear-gradient(#595959, #404040);
+  color: white;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.welcome h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(82, 82, 82);
+  margin-bottom: 30px;
+}
+
+.welcome span {
+  color: #333399;
+  font-weight: 600;
+}
