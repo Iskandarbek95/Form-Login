@@ -15,7 +15,7 @@ function Form({ Login, error }) {
             <div className="form-inner">
                 <h2>Login</h2>
                 {(
-                    error != ""
+                    error !== ""
                     ) ? (
                     <div className="error">{error}</div>
                     ) : ""}
